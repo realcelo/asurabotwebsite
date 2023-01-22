@@ -1865,3 +1865,16 @@ button[type="red"]:hover {
     margin: -20px 0 30px 0;
   }
 }
+
+body a {
+  text-decoration: none;
+}
+body a:visited, body a:link {
+  color: unset;
+}
+body::-webkit-scrollbar {
+  background-color: #23272A;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #2a2dc5;
+}
